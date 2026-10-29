@@ -143,6 +143,8 @@ vi.mock("../agent-model-discovery.js", () => ({
 }));
 
 vi.mock("./model.static-catalog.js", () => ({
+  createBundledStaticCatalogModelResolver: () => () => undefined,
+  listBundledVendorCatalogRows: () => [],
   canonicalizeManifestModelCatalogProviderAlias: (params: { provider: string }) =>
     resolveManifestModelCatalogProviderAliasMetadataMock(params).provider,
   resolveBundledProviderStaticCatalogModel: resolveBundledProviderStaticCatalogModelMock,

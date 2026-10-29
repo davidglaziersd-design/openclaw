@@ -33,6 +33,8 @@ vi.mock("../auth-profiles.js", () => ({
 }));
 
 vi.mock("./model.static-catalog.js", () => ({
+  createBundledStaticCatalogModelResolver: () => () => undefined,
+  listBundledVendorCatalogRows: () => [],
   resolveBundledProviderStaticCatalogModel: () => undefined,
   resolveBundledStaticCatalogModel: () => undefined,
   resolveManifestModelCatalogProviderAliasMetadata: ({
