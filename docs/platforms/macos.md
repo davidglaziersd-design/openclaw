@@ -29,7 +29,7 @@ Only need the CLI and Gateway? Start with [Getting started](/start/getting-start
 
 ## Requirements
 
-***The macOS requirement depends on which OpenClaw.app you install:**
+**The macOS requirement depends on which OpenClaw.app you install:**
 
 - **Stable release (2026.10.8):** macOS 15 or later.
 - **Builds from `main` and the next release:** macOS 26.2 (Tahoe) or later.
@@ -37,7 +37,7 @@ Only need the CLI and Gateway? Start with [Getting started](/start/getting-start
 The same requirement applies to the native `openclaw-mac` helper and
 [Voice Wake and push-to-talk](/platforms/mac/voicewake#requirements). On an
 older Mac, use the [installer script](/install#recommended-installer-script) to
-run the CLI and Gateway instead..
+run the CLI and Gateway instead.
 
 The Node-based CLI and Gateway need a [supported Node version](/install/node)
 on an operating system supported by that runtime. Official Node 24 and Node 26
